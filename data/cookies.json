@@ -1,0 +1,224 @@
+{
+    "marketing_cookies": [
+      {
+        "name": "_fbp",
+        "creator": "Facebook",
+        "purpose": "Identifiziert Browser für Facebook-Werbung"
+      },
+      {
+        "name": "fr",
+        "creator": "Facebook",
+        "purpose": "Verschlüsselte Facebook-ID und Browser-ID"
+      },
+      {
+        "name": "IDE",
+        "creator": "Google DoubleClick",
+        "purpose": "Personalisierte Werbung durch DoubleClick"
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "creator": "YouTube",
+        "purpose": "Bandbreite für YouTube-Videowiedergabe messen"
+      },
+      {
+        "name": "_gcl_au",
+        "creator": "Google AdSense",
+        "purpose": "Werbungseffizienz für Conversion-Tracking"
+      },
+      {
+        "name": "__gads",
+        "creator": "Google",
+        "purpose": "Ad-Impressions und Nutzerinteraktionen messen"
+      },
+      {
+        "name": "MUID",
+        "creator": "Microsoft",
+        "purpose": "Werberelevanz verbessern und Nutzer identifizieren"
+      },
+      {
+        "name": "IDSYNC",
+        "creator": "Adobe Audience Manager",
+        "purpose": "Identifikation für geräteübergreifendes Targeting"
+      },
+      {
+        "name": "_uetsid",
+        "creator": "Microsoft Bing Ads",
+        "purpose": "Ad-Klicks und Conversion-Tracking"
+      },
+      {
+        "name": "tuuid",
+        "creator": "TradeDesk",
+        "purpose": "Uniquer Identifier für Programmatic Advertising"
+      },
+      {
+        "name": "mf_user",
+        "creator": "Mouseflow",
+        "purpose": "Tracking für Heatmap-Analyse"
+      },
+      {
+        "name": "personalization_id",
+        "creator": "Twitter",
+        "purpose": "Twitter Ads und Tracking"
+      },
+      {
+        "name": "CMID",
+        "creator": "Casale Media",
+        "purpose": "Cross-Device-Identification für Werbung"
+      },
+      {
+        "name": "CMPS",
+        "creator": "Casale Media",
+        "purpose": "Speichert Nutzerinteraktionen mit Ads"
+      },
+      {
+        "name": "CMPRO",
+        "creator": "Casale Media",
+        "purpose": "Optimierung von Ad-Delivery"
+      },
+      {
+        "name": "CMRUM3",
+        "creator": "Casale Media",
+        "purpose": "Besucher-ID für Ad-Targeting"
+      },
+      {
+        "name": "PUBMDCID",
+        "creator": "Pubmatic",
+        "purpose": "Werbe-ID für personalisierte Anzeigen"
+      },
+      {
+        "name": "lidc",
+        "creator": "LinkedIn",
+        "purpose": "Routing-Auswahl und Ad-Deliver"
+      },
+      {
+        "name": "UserMatchHistory",
+        "creator": "LinkedIn",
+        "purpose": "LinkedIn Ads Synchronisation"
+      },
+      {
+        "name": "BizoID",
+        "creator": "LinkedIn (Bizo)",
+        "purpose": "LinkedIn Advertising und Analysen"
+      },
+      {
+        "name": "conversion_id",
+        "creator": "Pinterest",
+        "purpose": "Conversion-Tracking für Pinterest-Kampagnen"
+      },
+      {
+        "name": "_pinterest_ct_ua",
+        "creator": "Pinterest",
+        "purpose": "Werbung und Targeting"
+      },
+      {
+        "name": "_kuid_",
+        "creator": "Krux Digital",
+        "purpose": "Nutzerprofil für gezielte Werbung"
+      },
+      {
+        "name": "mc",
+        "creator": "QuantCast",
+        "purpose": "Anonymisierte Besucher-ID für Ads"
+      },
+      {
+        "name": "taboola_usg",
+        "creator": "Taboola",
+        "purpose": "User-Segmentierung für Content-Empfehlungen"
+      },
+      {
+        "name": "taboola_session_id",
+        "creator": "Taboola",
+        "purpose": "Sitzungs-ID für Content-Marketing"
+      },
+      {
+        "name": "criteo_cookie",
+        "creator": "Criteo",
+        "purpose": "Produkt-Retargeting und dynamische Anzeigen"
+      },
+      {
+        "name": "criteo_write_test",
+        "creator": "Criteo",
+        "purpose": "Testet Cookie-Funktionalität für Werbung"
+      },
+      {
+        "name": "outbrain_cid",
+        "creator": "Outbrain",
+        "purpose": "Nutzer-ID für Content-Empfehlungen"
+      },
+      {
+        "name": "NID",
+        "creator": "Google",
+        "purpose": "Werbepräferenzen für Google-Dienste speichern"
+      },
+      {
+        "name": "id",
+        "creator": "Google",
+        "purpose": "Conversion-Tracking und Remarketing"
+      },
+      {
+        "name": "GPS",
+        "creator": "YouTube",
+        "purpose": "Mobiles Tracking für YouTube"
+      },
+      {
+        "name": "YSC",
+        "creator": "YouTube",
+        "purpose": "Eindeutige ID für Statistiken"
+      },
+      {
+        "name": "PREF",
+        "creator": "YouTube",
+        "purpose": "Speichert YouTube-Einstellungen für Werbung"
+      },
+      {
+        "name": "__hstc",
+        "creator": "HubSpot",
+        "purpose": "Haupttracking-Cookie für Besucher"
+      },
+      {
+        "name": "__hssc",
+        "creator": "HubSpot",
+        "purpose": "Sitzungs-Cookie für Besuchertracking"
+      },
+      {
+      "name": "_ttp",
+      "creator": "TikTok",
+      "purpose": "Ermöglicht die Messung und Optimierung von Werbekampagnen durch den TikTok‑Pixel"
+    },
+    {
+      "name": "_pangle",
+      "creator": "TikTok (Pangle)",
+      "purpose": "Unterstützt das Pangle‑Werbenetzwerk für Ad‑Targeting und Kampagnen‑Messung"
+    },
+    {
+      "name": "_adroll",
+      "creator": "AdRoll",
+      "purpose": "Verfolgt Nutzerinteraktionen mit AdRoll‑Anzeigen"
+    },
+    {
+      "name": "_adroll_shared",
+      "creator": "AdRoll",
+      "purpose": "Ermöglicht geräteübergreifendes Tracking für AdRoll"
+    },
+    {
+      "name": "_adroll_fpc",
+      "creator": "AdRoll",
+      "purpose": "First‑Party‑Cookie zur Messung der AdRoll‑Werbeeffizienz"
+    },
+    {
+      "name": "__ar_v4",
+      "creator": "AdRoll",
+      "purpose": "Unterstützt Attribution und Zielgruppensegmentierung für AdRoll‑Kampagnen"
+    },
+    {
+      "name": "sc_at",
+      "creator": "Snapchat",
+      "purpose": "Verfolgt Interaktionen mit Snapchat‑Anzeigen"
+    },
+    {
+      "name": "uuid2",
+      "creator": "AppNexus",
+      "purpose": "Eindeutige Kennung für Browser und Geräte zur Auslieferung personalisierter Werbung"
+    }
+    ]
+  }

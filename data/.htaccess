@@ -1,0 +1,2 @@
+# Verweigere den Zugriff auf alle Dateien in diesem Verzeichnis
+Deny from all 

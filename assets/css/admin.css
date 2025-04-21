@@ -1,0 +1,167 @@
+.cookie-scanner-admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.cookie-scanner-admin-header-content h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.cookie-scanner-admin-header-content p {
+    margin: 0;
+    color: #666;
+}
+
+.cookie-scanner-admin-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.cookie-scanner-filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.cookie-scanner-filters select,
+.cookie-scanner-filters input[type="text"] {
+    min-width: 200px;
+}
+
+.cookie-scanner-admin-section {
+    margin-bottom: 30px;
+}
+
+.cookie-scanner-admin-section h3 {
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.cookie-scanner-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookie-scanner-modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.cookie-scanner-modal-content h3 {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-field input[type="text"],
+.form-field select,
+.form-field textarea {
+    width: 100%;
+}
+
+.form-actions {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+/* Tabellen-Styling */
+.wp-list-table {
+    margin-top: 20px;
+}
+
+.wp-list-table th {
+    font-weight: 600;
+}
+
+.wp-list-table td,
+.wp-list-table th {
+    padding: 12px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .cookie-scanner-admin-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cookie-scanner-filters {
+        flex-direction: column;
+    }
+
+    .cookie-scanner-filters select,
+    .cookie-scanner-filters input[type="text"] {
+        width: 100%;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .form-actions button {
+        width: 100%;
+    }
+}
+
+/* Animation */
+.cookie-scanner-modal {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cookie-scanner-modal-content {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+} 
